@@ -126,9 +126,32 @@ cursor: pointer;
 }
 
 
+/* estilização dos alertas*/
+
+.alert-password {
+    padding: 20px;
+    background-color: #DAA520;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+    display: none;
+    transition: opacity 0.5s;
+    width:12%;
+    border-radius: 10px;
+ 
+  }
+ 
+
 @media(min-width:320px) and (max-width:900px) {
     body {
         padding: 5px 10px;
+    }
+ }
+
+ @media(min-width:320px) and (max-width:900px) {
+    .alert-password {
+        width: 60%;
     }
  }
  

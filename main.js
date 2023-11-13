@@ -33,11 +33,24 @@ pass += charset.charAt(Math.floor(Math.random() * n));
 }
 
 function CopyPassword(){
-alert("Sua senha foi copiada")
+    toggleDivAlert(), setTimeout(() => { 
+        hideDivAlert()
+  }, 3000);
 navigator.clipboard.writeText(NovaSenha);
 
 }
 
-
+//função para senha copiada
+    function toggleDivAlert ()  {
+        var show = document.getElementById("alert-password");
+        show.style.display = "block";
+        
+          }
+        
+          function hideDivAlert ()  {
+            var hide = document.getElementById("alert-password");
+            hide.style.display = "none";
+          
+              }
 
 
