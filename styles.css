@@ -126,3 +126,9 @@ cursor: pointer;
 }
 
 
+@media(min-width:320px) and (max-width:900px) {
+    body {
+        padding: 5px 10px;
+    }
+ }
+ 
