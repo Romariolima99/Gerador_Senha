@@ -99,7 +99,7 @@ cursor: pointer;
     transform: scale(1.05);
 }
 
-.tooltip{
+/* .tooltip{
     color: #fff;
     position: relative;
     top: 20px;
@@ -111,7 +111,7 @@ cursor: pointer;
     visibility: hidden;
     opacity: 0;
     transition: all 0.5s ease-in-out;
-}
+} */
 
 .container-password:hover .tooltip{
 
@@ -152,6 +152,7 @@ cursor: pointer;
  @media(min-width:320px) and (max-width:900px) {
     .alert-password {
         width: 60%;
+        
+        
     }
  }
- 
